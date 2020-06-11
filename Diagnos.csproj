@@ -8,7 +8,9 @@
 
   <ItemGroup>
     <None Remove="Resources\images\dentist.png" />
+    <None Remove="Resources\images\Home.png" />
     <None Remove="Resources\images\Image1.png" />
+    <None Remove="Resources\images\loupe.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,7 +23,9 @@
 
   <ItemGroup>
     <Resource Include="Resources\images\dentist.png" />
+    <Resource Include="Resources\images\Home.png" />
     <Resource Include="Resources\images\Image1.png" />
+    <Resource Include="Resources\images\loupe.png" />
   </ItemGroup>
 
   <ItemGroup>

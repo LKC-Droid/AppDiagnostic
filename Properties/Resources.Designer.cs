@@ -73,9 +73,29 @@ namespace Diagnos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
+        internal static byte[] Home {
+            get {
+                object obj = ResourceManager.GetObject("Home", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
         internal static byte[] Image1 {
             get {
                 object obj = ResourceManager.GetObject("Image1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] loupe {
+            get {
+                object obj = ResourceManager.GetObject("loupe", resourceCulture);
                 return ((byte[])(obj));
             }
         }
